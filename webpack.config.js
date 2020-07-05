@@ -12,7 +12,7 @@ module.exports = {
     //  出力ファイルのディレクトリ名
     path: `${__dirname}/dist`,
     // 出力ファイル名
-    filename: "main.js"
+    filename: "bundle.js"
   },
   module: {
     rules: [
@@ -30,7 +30,8 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "public/index.html"),
+      template: path.resolve(__dirname, "src/index.html"),
+      filename: 'index.html'
     }),
   ],
 };
