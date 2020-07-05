@@ -1,0 +1,19 @@
+{
+  "name": "webpack-ts-reactbootstrap",
+  "version": "1.0.0",
+  "description": "Write React App by TypeScript with webpack, react-bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiichiSugihara/webpack-ts-reactBootStrap.git"
+  },
+  "author": "Kiichi Sugihara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiichiSugihara/webpack-ts-reactBootStrap/issues"
+  },
+  "homepage": "https://github.com/KiichiSugihara/webpack-ts-reactBootStrap#readme"
+}
